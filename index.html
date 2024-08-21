@@ -5,51 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="script.js">
 </head>
 <body>
-    <main>
-        <table>
-            <tr>
+    <main id="container">
+        <div>
+            <h1>JS Calculator</h1>
+        </div>
+            <div id="header">
                 <input type="text">
-                <button>C</button>
-            </tr>
+                <button id="perform">C</button>
+            </div>
             <div>
-                <tr>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
+                <button class="numbers">1</button>
+                <button class="numbers">2</button>
+                <button class="numbers">3</button>
                 <button>+</button>
-                </tr>
             </div>
-            
             <div>
-                <tr>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
+                <button class="numbers">4</button>
+                <button class="numbers">5</button>
+                <button class="numbers">6</button>
                 <button>-</button>
-                </tr>
             </div>
-            
             <div>
-                <tr>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
+                <button class="numbers">7</button>
+                <button class="numbers">8</button>
+                <button class="numbers">9</button>
                 <button>*</button>
-                </tr>
-            </div>
-            
+                </div>
             <div>
-                <tr>
-                <button>0</button>
+                <button class="numbers">0</button>
                 <button>.</button>
                 <button>=</button>
                 <button>/</button>
-                </tr>
             </div>
-        </table>
     </main>
+    <script src="script.js" defer></script>
 </body>
 </html>
